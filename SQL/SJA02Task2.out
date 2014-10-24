@@ -1,0 +1,83 @@
+STEVEN JOHNSTON
+
+PROG2220: Section #1
+
+Assignment #02: Task #2
+
+Current System Date
+2013-10-03 10:46:02
+city
+Altoona
+Chippewa Falls
+Eau Claire
+p_id	project_name
+2	Hardware Support Interface
+3	Hardware Support Database
+6	Network Design
+p_id	project_name	parent_p_id	project_name
+1	Hardware Support Intranet	NULL	Hardware Support Intranet
+2	Hardware Support Interface	1	Hardware Support Interface
+3	Hardware Support Database	1	Hardware Support Database
+4	Teller Support System	NULL	Teller Support System
+5	Internet Advertising	NULL	Internet Advertising
+6	Network Design	5	Network Design
+7	Exploration Database	NULL	Exploration Database
+1	Hardware Support Intranet	NULL	Hardware Support Intranet
+2	Hardware Support Interface	1	Hardware Support Interface
+3	Hardware Support Database	1	Hardware Support Database
+4	Teller Support System	NULL	Teller Support System
+5	Internet Advertising	NULL	Internet Advertising
+6	Network Design	5	Network Design
+7	Exploration Database	NULL	Exploration Database
+1	Hardware Support Intranet	NULL	Hardware Support Intranet
+2	Hardware Support Interface	1	Hardware Support Interface
+3	Hardware Support Database	1	Hardware Support Database
+4	Teller Support System	NULL	Teller Support System
+5	Internet Advertising	NULL	Internet Advertising
+6	Network Design	5	Network Design
+7	Exploration Database	NULL	Exploration Database
+1	Hardware Support Intranet	NULL	Hardware Support Intranet
+2	Hardware Support Interface	1	Hardware Support Interface
+3	Hardware Support Database	1	Hardware Support Database
+4	Teller Support System	NULL	Teller Support System
+5	Internet Advertising	NULL	Internet Advertising
+6	Network Design	5	Network Design
+7	Exploration Database	NULL	Exploration Database
+1	Hardware Support Intranet	NULL	Hardware Support Intranet
+2	Hardware Support Interface	1	Hardware Support Interface
+3	Hardware Support Database	1	Hardware Support Database
+4	Teller Support System	NULL	Teller Support System
+5	Internet Advertising	NULL	Internet Advertising
+6	Network Design	5	Network Design
+7	Exploration Database	NULL	Exploration Database
+1	Hardware Support Intranet	NULL	Hardware Support Intranet
+2	Hardware Support Interface	1	Hardware Support Interface
+3	Hardware Support Database	1	Hardware Support Database
+4	Teller Support System	NULL	Teller Support System
+5	Internet Advertising	NULL	Internet Advertising
+6	Network Design	5	Network Design
+7	Exploration Database	NULL	Exploration Database
+1	Hardware Support Intranet	NULL	Hardware Support Intranet
+2	Hardware Support Interface	1	Hardware Support Interface
+3	Hardware Support Database	1	Hardware Support Database
+4	Teller Support System	NULL	Teller Support System
+5	Internet Advertising	NULL	Internet Advertising
+6	Network Design	5	Network Design
+7	Exploration Database	NULL	Exploration Database
+c_id	skill_id	certification
+100	1	Y
+103	1	Y
+105	4	Y
+100	6	Y
+103	6	Y
+102	7	Y
+103	8	Y
+103	9	Y
+104	9	Y
+c_id	c_last	c_first	skill_id	skill_description
+100	Myers	Mark	1	VB .NET Programming
+101	Hernandez	Sheila	1	VB .NET Programming
+102	Zhang	Brian	1	VB .NET Programming
+103	Carlson	Sarah	1	VB .NET Programming
+104	Courtlandt	Paul	1	VB .NET Programming
+105	Park	Janet	1	VB .NET Programming

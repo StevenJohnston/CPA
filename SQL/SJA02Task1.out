@@ -1,0 +1,77 @@
+STEVEN JOHNSTON
+
+PROG2220: Section #1
+
+Assignment #02: Task #1
+
+Current System Date
+2013-10-03 10:44:52
+category_name	product_name	list_price
+Basses	Fender Precision	799.99
+Basses	Fender Stratocaster	699.00
+Basses	Gibson Les Paul	1199.00
+Basses	Gibson SG	2517.00
+Basses	Hofner Icon	499.99
+Basses	Ludwig 5-piece Drum Set with Cymbals	699.99
+Basses	Rodriguez Caballero 11	415.00
+Basses	Tama 5-Piece Drum Set with Cymbals	799.99
+Basses	Washburn D10S	299.00
+Basses	Yamaha FG700S	489.99
+Drums	Fender Precision	799.99
+Drums	Fender Stratocaster	699.00
+Drums	Gibson Les Paul	1199.00
+Drums	Gibson SG	2517.00
+Drums	Hofner Icon	499.99
+Drums	Ludwig 5-piece Drum Set with Cymbals	699.99
+Drums	Rodriguez Caballero 11	415.00
+Drums	Tama 5-Piece Drum Set with Cymbals	799.99
+Drums	Washburn D10S	299.00
+Drums	Yamaha FG700S	489.99
+Guitars	Fender Precision	799.99
+Guitars	Fender Stratocaster	699.00
+Guitars	Gibson Les Paul	1199.00
+Guitars	Gibson SG	2517.00
+Guitars	Hofner Icon	499.99
+Guitars	Ludwig 5-piece Drum Set with Cymbals	699.99
+Guitars	Rodriguez Caballero 11	415.00
+Guitars	Tama 5-Piece Drum Set with Cymbals	799.99
+Guitars	Washburn D10S	299.00
+Guitars	Yamaha FG700S	489.99
+Keyboards	Fender Precision	799.99
+Keyboards	Fender Stratocaster	699.00
+Keyboards	Gibson Les Paul	1199.00
+Keyboards	Gibson SG	2517.00
+Keyboards	Hofner Icon	499.99
+Keyboards	Ludwig 5-piece Drum Set with Cymbals	699.99
+Keyboards	Rodriguez Caballero 11	415.00
+Keyboards	Tama 5-Piece Drum Set with Cymbals	799.99
+Keyboards	Washburn D10S	299.00
+Keyboards	Yamaha FG700S	489.99
+first_name	last_name	line1	city	state	zip_code
+Allan	Sherwood	100 East Ridgewood Ave.	Paramus	NJ	07652
+last_name	first_name	order_date	product_name	item_price	discount_amount	quantity
+Brown	Christine	2012-03-30 15:22:31	Gibson Les Paul	1199.00	359.70	2
+Goldstein	David	2012-03-31 05:43:11	Washburn D10S	299.00	0.00	1
+Goldstein	David	2012-04-03 12:22:31	Fender Stratocaster	699.00	209.70	1
+Hernandez	Gary	2012-04-02 11:26:38	Tama 5-Piece Drum Set with Cymbals	799.99	120.00	1
+Sherwood	Allan	2012-03-28 09:40:28	Gibson Les Paul	1199.00	359.70	1
+Sherwood	Allan	2012-03-29 09:44:58	Gibson SG	2517.00	1308.84	1
+Sherwood	Allan	2012-03-29 09:44:58	Rodriguez Caballero 11	415.00	161.85	1
+Valentino	Erin	2012-03-31 18:37:22	Washburn D10S	299.00	0.00	1
+Wilson	Frank Lee	2012-04-01 23:11:12	Fender Precision	799.99	240.00	1
+Wilson	Frank Lee	2012-04-01 23:11:12	Fender Stratocaster	699.00	209.70	1
+Wilson	Frank Lee	2012-04-01 23:11:12	Ludwig 5-piece Drum Set with Cymbals	699.99	210.00	1
+Zimmer	Barry	2012-03-28 11:23:20	Yamaha FG700S	489.99	186.20	1
+product_name	list_price
+Tama 5-Piece Drum Set with Cymbals	799.99
+Fender Precision	799.99
+ship_satus	order_id	order_date
+Shipped	1	2012-03-28 09:40:28
+Shipped	2	2012-03-28 11:23:20
+Shipped	3	2012-03-29 09:44:58
+Shipped	4	2012-03-30 15:22:31
+Shipped	5	2012-03-31 05:43:11
+not Shipped	6	2012-03-31 18:37:22
+Shipped	7	2012-04-01 23:11:12
+not Shipped	8	2012-04-02 11:26:38
+not Shipped	9	2012-04-03 12:22:31

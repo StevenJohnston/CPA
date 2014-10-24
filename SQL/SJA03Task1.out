@@ -1,0 +1,31 @@
+STEVEN JOHNSTON
+
+PROG2220: Section #1
+
+Assignment #03: Task #1
+
+Current System Date
+2013-10-17 11:56:04
+
+Q1
+Number of orders	Tax sum
+9	122.24
+
+Q2
+category_name	Number of IDs	MAX(list_price)
+Guitars	6	2517.00
+Basses	2	799.99
+Drums	2	799.99
+
+Q3
+product_name	product total
+Fender Precision	559.99
+Fender Stratocaster	978.60
+Gibson Les Paul	2517.90
+Gibson SG	1208.16
+Ludwig 5-piece Drum Set with Cymbals	489.99
+Rodriguez Caballero 11	253.15
+Tama 5-Piece Drum Set with Cymbals	679.99
+Washburn D10S	598.00
+Yamaha FG700S	303.79
+Total	7589.57

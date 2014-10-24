@@ -1,0 +1,38 @@
+your name STEVEN JOHNSTON
+
+PROG2220: Section #1
+
+Assignment #01: Task #2
+
+Current System Date
+2013-09-12 10:25:46
+
+product_code	product_name	list_price	discount_percent
+sg	Gibson SG	2517.00	52.00
+les_paul	Gibson Les Paul	1199.00	30.00
+tama	Tama 5-Piece Drum Set with Cymbals	799.99	15.00
+precision	Fender Precision	799.99	30.00
+ludwig	Ludwig 5-piece Drum Set with Cymbals	699.99	30.00
+strat	Fender Stratocaster	699.00	30.00
+hofner	Hofner Icon	499.99	25.00
+fg700s	Yamaha FG700S	489.99	38.00
+rodriguez	Rodriguez Caballero 11	415.00	39.00
+washburn	Washburn D10S	299.00	0.00
+product_name	list_price	date_added
+Tama 5-Piece Drum Set with Cymbals	799.99	2012-07-30 13:14:15
+Ludwig 5-piece Drum Set with Cymbals	699.99	2012-07-30 12:46:40
+Fender Precision	799.99	2012-06-01 11:29:35
+Gibson Les Paul	1199.00	2011-12-05 16:33:13
+Fender Stratocaster	699.00	2011-10-30 09:32:40
+item_id	item_price	discount_amount	quantity	price_total	discount_total	item_total
+1	1199.00	359.70	1	1199.00	359.70	839.30
+3	2517.00	1308.84	1	2517.00	1308.84	1208.16
+5	1199.00	359.70	2	2398.00	719.40	839.30
+9	799.99	240.00	1	799.99	240.00	559.99
+11	799.99	120.00	1	799.99	120.00	679.99
+order_id	order_date	ship_date
+6	2012-03-31 18:37:22	NULL
+8	2012-04-02 11:26:38	NULL
+9	2012-04-03 12:22:31	NULL
+price	tax_rate	tax_amount	total
+100	0.7	70.0	170.0
