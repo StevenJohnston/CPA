@@ -1,0 +1,74 @@
+﻿@model SJBusService.Models.routeSchedule
+
+@{
+    ViewBag.Title = "Edit";
+}
+@section featured
+{
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.busRouteCode, "busRoute")
+                </div>
+                <div class="editor-field">
+                    @Html.DisplayFor(model => Request.Cookies["busCode"].Value)
+                    @Html.DisplayFor(model => Request.Cookies["busName"].Value)
+                </div>
+            </p>
+        </div>
+    </section>
+}
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>routeSchedule</legend>
+
+        @Html.HiddenFor(model => model.routeScheduleId)
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.startTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.startTime)
+            @Html.ValidationMessageFor(model => model.startTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.isWeekDay)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.isWeekDay)
+            @Html.ValidationMessageFor(model => model.isWeekDay)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.comments)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.comments)
+            @Html.ValidationMessageFor(model => model.comments)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

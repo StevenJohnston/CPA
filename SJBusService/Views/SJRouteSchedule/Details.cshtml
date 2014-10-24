@@ -1,0 +1,43 @@
+﻿@model SJBusService.Models.routeSchedule
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>routeSchedule</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.busRoute.routeName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.busRoute.routeName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.startTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.startTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.isWeekDay)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.isWeekDay)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.comments)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.comments)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.routeScheduleId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

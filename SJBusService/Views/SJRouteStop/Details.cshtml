@@ -1,0 +1,36 @@
+﻿@model SJBusService.Models.routeStop
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>routeStop</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.busRoute.routeName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.busRoute.routeName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.busStop.location)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.busStop.location)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.offsetMinutes)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.offsetMinutes)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.routeStopId }) |
+    @Html.ActionLink("Back to List", "Index", new { id = Request.Cookies["busCode"].Value})
+</p>

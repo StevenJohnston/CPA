@@ -1,0 +1,61 @@
+﻿@model SJBusService.Models.routeStop
+
+@{
+    ViewBag.Title = "Edit";
+}
+@section featured
+{
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                <div class="editor-field">
+                    @Html.DisplayFor(model => Request.Cookies["busCode"].Value)
+                    @Html.DisplayFor(model => Request.Cookies["busName"].Value)
+                </div>
+            </p>
+        </div>
+    </section>
+}
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>routeStop</legend>
+
+        @Html.HiddenFor(model => model.routeStopId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.busStopNumber, "busStop")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("busStopNumber", String.Empty)
+            @Html.ValidationMessageFor(model => model.busStopNumber)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.offsetMinutes)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.offsetMinutes)
+            @Html.ValidationMessageFor(model => model.offsetMinutes)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", new { id = Request.Cookies["busCode"].Value})
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

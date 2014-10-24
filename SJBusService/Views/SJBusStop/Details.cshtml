@@ -1,0 +1,36 @@
+﻿@model SJBusService.Models.busStop
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>busStop</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.location)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.location)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.locationHash)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.locationHash)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.goingDowntown)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.goingDowntown)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.busStopNumber }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
